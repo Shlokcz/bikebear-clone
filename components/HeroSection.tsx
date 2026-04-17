@@ -1,5 +1,6 @@
 "use client";
 import React, { useRef, useLayoutEffect } from "react";
+import Image from "next/image";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
@@ -55,12 +56,16 @@ export default function HeroSection() {
         WE ARE BIKE BEAR
       </div>
       
-      {/* 2D Demo Placeholder Image centered on screen */}
+      {/* Real Bear Image centered on screen */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-[5] pointer-events-none">
-        <div className="w-80 h-96 opacity-60 bg-black/10 rounded-[4rem] border-2 border-dashed border-black/40 backdrop-blur-md flex flex-col items-center justify-center p-6 text-center">
-          <span className="text-4xl mb-4">🐻</span>
-          <span className="text-black font-semibold">2D Demo Image</span>
-          <span className="text-sm text-black/60 mt-2">Swap this layer out with your final Bear static image or Lottie sequence later.</span>
+        <div className="relative w-80 h-96">
+          <Image
+            src="/bear_image.webp"
+            alt="Bear image"
+            fill
+            className="object-contain"
+            priority
+          />
         </div>
       </div>
 

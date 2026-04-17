@@ -57,7 +57,7 @@ export default function HeroSection() {
       </div>
       
       {/* Real Bear Image centered on screen */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-[5] pointer-events-none">
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-5 pointer-events-none">
         <div className="relative w-80 h-96">
           <Image
             src="/bear_image.webp"
@@ -90,12 +90,12 @@ export default function HeroSection() {
       {/* The Bottom Marquee Strip */}
       <div className="absolute bottom-0 left-0 w-full border-t-[1.5px] border-black bg-[#ffd900] overflow-hidden flex items-center h-12 z-20">
          <div className="animate-marquee whitespace-nowrap flex items-center text-[13px] font-bold text-black tracking-wide uppercase">
-            <span className="mx-6 text-[#29d682] text-2xl relative top-[4px]">*</span> WE ARE A <i className="mx-1 lowercase text-[15px] tracking-normal font-extrabold italic">“BEARY”</i> CREATIVE DIGITAL AGENCY FOR HOOMANS
-            <span className="mx-6 text-[#29d682] text-2xl relative top-[4px]">*</span> WE ARE A <i className="mx-1 lowercase text-[15px] tracking-normal font-extrabold italic">“BEARY”</i> CREATIVE DIGITAL AGENCY FOR HOOMANS
-            <span className="mx-6 text-[#29d682] text-2xl relative top-[4px]">*</span> WE ARE A <i className="mx-1 lowercase text-[15px] tracking-normal font-extrabold italic">“BEARY”</i> CREATIVE DIGITAL AGENCY FOR HOOMANS
-            <span className="mx-6 text-[#29d682] text-2xl relative top-[4px]">*</span> WE ARE A <i className="mx-1 lowercase text-[15px] tracking-normal font-extrabold italic">“BEARY”</i> CREATIVE DIGITAL AGENCY FOR HOOMANS
-            <span className="mx-6 text-[#29d682] text-2xl relative top-[4px]">*</span> WE ARE A <i className="mx-1 lowercase text-[15px] tracking-normal font-extrabold italic">“BEARY”</i> CREATIVE DIGITAL AGENCY FOR HOOMANS
-            <span className="mx-6 text-[#29d682] text-2xl relative top-[4px]">*</span> WE ARE A <i className="mx-1 lowercase text-[15px] tracking-normal font-extrabold italic">“BEARY”</i> CREATIVE DIGITAL AGENCY FOR HOOMANS
+            <span className="mx-6 text-[#29d682] text-2xl relative top-1">*</span> WE ARE A <i className="mx-1 lowercase text-[15px] tracking-normal font-extrabold italic">“BEARY”</i> CREATIVE DIGITAL AGENCY FOR HOOMANS
+            <span className="mx-6 text-[#29d682] text-2xl relative top-1">*</span> WE ARE A <i className="mx-1 lowercase text-[15px] tracking-normal font-extrabold italic">“BEARY”</i> CREATIVE DIGITAL AGENCY FOR HOOMANS
+            <span className="mx-6 text-[#29d682] text-2xl relative top-1">*</span> WE ARE A <i className="mx-1 lowercase text-[15px] tracking-normal font-extrabold italic">“BEARY”</i> CREATIVE DIGITAL AGENCY FOR HOOMANS
+            <span className="mx-6 text-[#29d682] text-2xl relative top-1">*</span> WE ARE A <i className="mx-1 lowercase text-[15px] tracking-normal font-extrabold italic">“BEARY”</i> CREATIVE DIGITAL AGENCY FOR HOOMANS
+            <span className="mx-6 text-[#29d682] text-2xl relative top-1">*</span> WE ARE A <i className="mx-1 lowercase text-[15px] tracking-normal font-extrabold italic">“BEARY”</i> CREATIVE DIGITAL AGENCY FOR HOOMANS
+            <span className="mx-6 text-[#29d682] text-2xl relative top-1">*</span> WE ARE A <i className="mx-1 lowercase text-[15px] tracking-normal font-extrabold italic">“BEARY”</i> CREATIVE DIGITAL AGENCY FOR HOOMANS
          </div>
       </div>
     </section>
